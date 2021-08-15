@@ -5,8 +5,12 @@
     <title>Bootstrap Aiep ETW Experiment Project I</title>
   		<meta name="description" content="First attempt with Bootstrap towards responsive web page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
      <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -47,25 +51,43 @@
   
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"><img src="https://github.com/Ivette-Soto/Aiep-ETW-Experiment-Project-I/blob/main/assets/images/Logo.png" al-center w-100 alt="logo"></a>
-     
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">The Knots we Knit</a></li>
-        <li><a href="#">Your Knots</a></li>
-        <li><a href="#">Their Knots</a></li>
-        <li><a href="#">Us</a></li>
-        <li><a href="#">Us</a></li>
+  
 
+<nav class="navbar navbar-light bg-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand href="index.html">
+    <img src="/images/Logo.png" class="al-center" w-30 alt="logo"></a>Knots to Knit</a>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Find a Thread" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Go</button>
+    </form>
+  </div>
+</nav>
+
+
+
+<ul class="nav nav-tabs nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" aria-current="page" href="#">Pick a Thread</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Their Knots</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Your Knots</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Contact Us</a>
+  </li>
+</ul>
+</div>
+  
+
+
+     
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -105,5 +127,10 @@
   <p>Publish to share</p>
 </footer>
 
+ 
+  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  
 </body>
 </html>
